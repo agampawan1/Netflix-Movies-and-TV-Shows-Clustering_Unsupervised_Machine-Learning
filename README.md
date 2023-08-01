@@ -67,6 +67,14 @@ To carry out this endeavor, the project will utilize a comprehensive dataset of 
 
 **10.Iteration and Refinement:** The clustering process might require multiple iterations, fine-tuning, and parameter adjustments to achieve optimal results. Continuous refinement of the approach and cluster analysis can lead to better insights and enhanced applications for Netflix's content management and recommendation system.
 
-**Result :**
+**Conclusions:**
 
-The "Netflix Movies and TV Shows Clustering" project demonstrates the power of unsupervised machine learning techniques in exploring and categorizing vast datasets. By applying clustering algorithms and feature extraction methods to Netflix's content catalog, the project provides valuable insights for content recommendation, content management, and content production strategies. The ability to group similar titles together offers users a more personalized viewing experience and empowers content managers to optimize content organization and delivery, enhancing the overall Netflix streaming platform.
+In this project, we tackled a text clustering problem involving the classification of Netflix shows into distinct clusters based on their similarities and dissimilarities. The dataset consisted of approximately 7787 records with 11 attributes. One of the key observations was that Netflix hosted a larger number of movies compared to TV shows on its platform, and the total count of shows added to Netflix showed exponential growth over time. Additionally, a significant portion of the shows originated from the United States, with a focus on content targeting the adult and young adult age group.
+
+To perform the clustering, we selected specific attributes, including director, cast, country, genre, and description. These attributes were pre-processed, tokenized, and then vectorized using TFIDF vectorizer, resulting in a total of 20000 attributes. To tackle the high dimensionality of the data, Principal Component Analysis (PCA) was employed, and 4000 components were chosen to capture over 80% of the variance.
+
+The k-means clustering algorithm was initially used to create clusters, with the optimal number of clusters determined to be 6 through the elbow method and Silhouette score analysis. Additionally, the Agglomerative clustering algorithm was applied to build a hierarchical clustering model, which resulted in 12 optimal clusters based on dendrogram visualization.
+
+Furthermore, we developed a content-based recommender system using the similarity matrix obtained from cosine similarity. This recommender system provides users with 10 personalized recommendations based on the type of show they have previously watched.
+
+Overall, this project successfully employed various clustering techniques to categorize Netflix shows, and the content-based recommender system offered valuable and relevant recommendations to enhance the user experience on the platform. These findings have the potential to contribute significantly to content management and user satisfaction in the context of Netflix's vast library of shows and movies.
