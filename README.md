@@ -61,7 +61,7 @@ To carry out this endeavor, the project will utilize a comprehensive dataset of 
 
 **7.Evaluation:** Since clustering is an unsupervised learning task, there are no predefined labels to assess the model's performance directly. However, internal evaluation metrics like Silhouette score and Davies-Bouldin index can provide an indication of the clustering quality.
 
-**8.Application: **The insights obtained from the clustering exercise have practical applications for Netflix. They can be leveraged to enhance the content recommendation system, enabling users to discover content aligned with their preferences more effectively. Content managers can also utilize the clustering results to curate and organize the content library, creating specialized collections for different themes and interests. Additionally, the information can guide content production strategies to cater to diverse global audiences.
+**8. Application:** The insights obtained from the clustering exercise have practical applications for Netflix. They can be leveraged to enhance the content recommendation system, enabling users to discover content aligned with their preferences more effectively. Content managers can also utilize the clustering results to curate and organize the content library, creating specialized collections for different themes and interests. Additionally, the information can guide content production strategies to cater to diverse global audiences.
 
 **9.Visualization:** To aid in understanding the clustering results, the clusters and their associated features can be visualized using plots, charts, and interactive visualizations. Visual representation can provide a more intuitive understanding of the content distribution within each cluster.
 
