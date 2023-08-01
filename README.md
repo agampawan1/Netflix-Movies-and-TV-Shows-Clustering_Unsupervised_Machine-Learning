@@ -1,9 +1,7 @@
 # Netflix Movies and TV Shows Clustering_Unsupervised_Machine-Learning
 ![netflix2](https://github.com/agampawan1/Netflix-Movies-and-TV-Shows-Clustering_Unsupervised_Machine-Learning/assets/120245764/d3615b8e-1441-40ec-b00b-74cd1ce8da15)
 
-**Introduction**
 
-This project aims to cluster the video content available on Netflix based on the company’s site data. Apart from aiding in the development of an efficient recommendation system, clustering the video content would also provide information about the type of content the company is interested in listing on its site. Thus giving an insight to content creators and filmmakers on the type of video content in demand.
 
 **Project Summary -**
 
